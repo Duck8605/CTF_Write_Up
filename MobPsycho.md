@@ -14,7 +14,7 @@ Well it was due to the hint tbh, that I thought of unzipping this file. Now ther
 
 ![image](https://github.com/Duck8605/ex-pic/blob/main/mobpsycho.png)
 
-So it seemed like our flag has been converted to hex. So i went to kt.gy and decoded it.
+So it seemed like our flag has been converted to hex. So i went to [kt.gy](https://kt.gy/) and decoded it.
 
 ![image](https://github.com/Duck8605/ex-pic/blob/main/mobpsycho1.png)
 
