@@ -50,17 +50,22 @@ So I used website called [Unix Time Stamp — Epoch Converter](https://www.unixt
 
 I put the date I want then clicked convert and this was the output
 
-![image](![image](https://github.com/user-attachments/assets/ffd16233-b510-42d5-8fcc-0a4e229ca641))
+![image](https://github.com/user-attachments/assets/46524ea8-c85a-4641-b581-d3b9accfefd2)
 
-It’s 0 so now we want to replace the 0 with our old date so I used hexeditor
+
+It’s 0000000000001 so now we want to replace the 0000000000001 with our old date so I used hexeditor
 online [Hexedit](https://hexed.it/)
 
 ![image](https://github.com/user-attachments/assets/23d6d7fb-5b8c-430d-bff4-afa42259308e)
 
+![image](https://github.com/user-attachments/assets/93649db6-9acc-4cea-9fdc-1aacf3f8f11d)
 
+Then, let's check our picture one more time
 
-And BINGOO!!! We got out flag. Pretty simple challenge but yeah, thinking of the command could take some time.
+![image](https://github.com/user-attachments/assets/7ebe8aab-045d-4cbd-9579-c54d4ad99385)
+
+And BINGOO!!! We got out flag.
 
 ## Flag:
 
-
+picoCTF{71m3_7r4v311ng_p1c7ur3_b5f7bcb5}
