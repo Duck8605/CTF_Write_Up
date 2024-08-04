@@ -40,8 +40,27 @@ After some search again I used strings original.jpg and I have found this
 
 ![image](https://github.com/user-attachments/assets/ffd16233-b510-42d5-8fcc-0a4e229ca641)
 
+I have found it so now what is this number ? 1700513181420
+
+It’s this date 2023:11:20 15:46:21.420–05:00 but in milisec unix timestamp
+
+So it’s easy now we will convert 1970:01:01 00:00:00.001+00:00 to unix timestamp and replace it
+
+So I used website called [Unix Time Stamp — Epoch Converter](https://www.unixtimestamp.com/)
+
+I put the date I want then clicked convert and this was the output
+
+![image](![image](https://github.com/user-attachments/assets/ffd16233-b510-42d5-8fcc-0a4e229ca641))
+
+It’s 0 so now we want to replace the 0 with our old date so I used hexeditor
+online [Hexedit](https://hexed.it/)
+
+![image](https://github.com/user-attachments/assets/23d6d7fb-5b8c-430d-bff4-afa42259308e)
+
+
+
 And BINGOO!!! We got out flag. Pretty simple challenge but yeah, thinking of the command could take some time.
 
 ## Flag:
 
-picoCTF{ax8mC0RU6ve_NX85l4ax8mCl_52a5e2de}
+
