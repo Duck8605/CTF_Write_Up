@@ -6,7 +6,7 @@ Can you handle APKs?Download the android apk [here](https://artifacts.picoctf.ne
 
 ## Basic Idea of the Problem:
 
-Well, loved the name of the challenge tbh…full on anime vibes but whatever. The challenge basically gives you an apk file and then simply expects you to find the flag. It can be anywhere in the apk file. 
+The challenge basically gives you an apk file and then simply expects you to find the flag. It can be anywhere in the apk file. 
 
 ## Solution:
 
@@ -16,7 +16,7 @@ Well it was due to the hint tbh, that I thought of unzipping this file. Now ther
 
 So it seemed like our flag has been converted to hex. So i went to kt.gy and decoded it.
 
-![image](https://github.com/LU1F3R/picoCTF-2024/assets/45719646/9f1e5217-0e00-4279-81df-cd7bd13cff58)
+![image](https://github.com/Duck8605/ex-pic/blob/main/mobpsycho1.png)
 
 And BINGOO!!! We got out flag. Pretty simple challenge but yeah, thinking of the command could take some time.
 
