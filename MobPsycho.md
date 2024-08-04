@@ -22,4 +22,4 @@ And BINGOO!!! We got out flag. Pretty simple challenge but yeah, thinking of the
 
 ## Flag:
 
-picoCTF{ax8mC0RU6ve_NX85l4ax8mCl_85dbd215}
+picoCTF{ax8mC0RU6ve_NX85l4ax8mCl_52a5e2de}
