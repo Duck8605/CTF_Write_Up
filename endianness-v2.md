@@ -62,7 +62,7 @@ Part 1: hexdump -v -e '1/4 "%08x"' -e '"\n"' input_file
 
 >   input_file: The file being processed.
 
->>  This part of the command reads the input file, formats each 4-byte chunk as an 8-character hexadecimal number, and outputs each number on a new line.
+This part of the command reads the input file, formats each 4-byte chunk as an 8-character hexadecimal number, and outputs each number on a new line.
 
 Part 2: | xxd -r -p > output_file
 >   |: Pipe operator, passes the output of the previous command as input to the next command.
@@ -75,15 +75,16 @@ Part 2: | xxd -r -p > output_file
 
 >   "> output_file": Redirects the final output to output_file.
 
->>  This part takes the formatted hex output from hexdump, converts it back to binary, and writes it to the specified output file.
+This part takes the formatted hex output from hexdump, converts it back to binary, and writes it to the specified output file.
  
 
 Full Command Summary
 The full command hexdump -v -e '1/4 "%08x"' -e '"\n"' input_file | xxd -r -p > output_file does the following:
 > Reads input_file and formats each 4-byte segment as an 8-character wide hexadecimal number, outputting each number on a new line.
+
 > Converts this formatted hexadecimal output back to binary format.
+
 > Writes the resulting binary data to output_file.
->
 
 So that, I try to convert this data file to a jpg file
 
