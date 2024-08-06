@@ -45,15 +45,24 @@ hexdump -v -e '1/4 "%08x"' -e '"\n"' input_file | xxd -r -p > output_file
 ```
 
 This command in Linux uses hexdump and xxd to process a binary file. Let's break down the command step by step:
+
 Part 1: hexdump -v -e '1/4 "%08x"' -e '"\n"' input_file
+
 >   hexdump: A command that displays the contents of a file in hexadecimal, decimal, octal, or ASCII format.
+
 >   -v: Tells hexdump to display all data, not just a canonical representation.
+
 >   -e '1/4 "%08x"': This is a format string that specifies how to display the output.
+
 >   1/4: Read one unit of 4 bytes.
+
 >   "%08x": Format each 4-byte unit as an 8-character wide hexadecimal number, zero-padded.
+
 >   -e '"\n"': After processing each 4-byte unit, print a newline character.
+
 >   input_file: The file being processed.
->  This part of the command reads the input file, formats each 4-byte chunk as an 8-character hexadecimal number, and outputs each number on a new line.
+
+>> This part of the command reads the input file, formats each 4-byte chunk as an 8-character hexadecimal number, and outputs each number on a new line.
 
 Part 2: | xxd -r -p > output_file
 >   |: Pipe operator, passes the output of the previous command as input to the next command.
