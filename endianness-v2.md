@@ -15,7 +15,13 @@ At first, let's check the type of file
 
 ![image](https://github.com/user-attachments/assets/2de342bb-3c10-4d4a-a749-78dbf1eef4b4)
 
-So nothing much just data. So now I opened it on the hex editor and had a look at its data. Well it was weird and for some time I didn't have any idea. But the problem is named ‘endianness-v2’ so it has something to do with endianness order right?
+So nothing much just data. So now I opened it on the hex editor and had a look at its data.
+
+![image](https://github.com/user-attachments/assets/c42cb85d-d40b-402c-b584-3fdf2d16cb0c)
+
+![image](https://github.com/user-attachments/assets/bd1857d5-d2d7-4292-8f59-a8074d451edb)
+
+Well it was weird and for some time I didn't have any idea. But the problem is named ‘endianness-v2’ so it has something to do with endianness order right?
 
 So on this thinking, I took the first few bytes of the file and tried to see there different endianness on this [site](https://www.scadacore.com/tools/programming-calculators/online-hex-converter/)
 
