@@ -25,7 +25,7 @@ We could have found the flag using the Find Packet (Ctrl+F) tool, specifying a s
 
 And we got out flag.
 
-Or we could also have found the flag by using the `grep` command in Linux terminal
+Or we could also have found the flag by using `strings` and `grep` command in Linux terminal
 
 ![image](https://github.com/user-attachments/assets/ce250b01-cb57-4ead-a105-ac2eaaba3669)
 
