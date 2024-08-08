@@ -59,7 +59,7 @@ Although there’s no file named flag directly, I saw parts of the flag distribu
 
 ![image](https://github.com/user-attachments/assets/62d5fc4d-32aa-4dce-9fb8-7c1c9aea8bdf)
 
-Just like that, we can continue to view these files, assemble all the parts found, and then send them in smoothly.
+Just like that, we can view these files, assemble all the parts found, and then send them in smoothly.
 And we got out flag.
 
 ## Flag:
