@@ -33,9 +33,11 @@ I use all the default settings and analyze the raw disk file.
 
 ![image](https://github.com/user-attachments/assets/3763a097-6ae2-49ac-abf7-740dc19aacf9)
 
+I then used keyword search with ASCII option to search for raw data. My first search is “.txt” to find if there’s a flag file. 
+
 ![image](https://github.com/user-attachments/assets/4672d8e2-a1bc-4509-a7d6-044865d5db61)
 
-I then used keyword search with ASCII option to search for raw data. My first search is “.txt” to find if there’s a flag file. Although there’s no file named flag directly, I saw parts of the flag distributed around innocuous-file.txt
+Although there’s no file named flag directly, I saw parts of the flag distributed around innocuous-file.txt
 
 ![image](https://github.com/user-attachments/assets/781aae90-a228-4034-aded-d36e223bc852)
 
