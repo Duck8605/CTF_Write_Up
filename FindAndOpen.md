@@ -13,7 +13,7 @@ The challenge basically gives you a zip file and a pcap file then simply expects
 
 It appears we are suppose to find the password for the zip file somewhere within the pcap.
 
-![image](https://github.com/user-attachments/assets/5c72cf9c-92ec-4266-9f41-71b12d48cbf7)
+![image](https://github.com/user-attachments/assets/aa714f9b-1df4-4a68-a3b2-1707e5f4d017)
 
 At first, I try `strings` and there is some text
 
