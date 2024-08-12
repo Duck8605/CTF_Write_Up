@@ -5,6 +5,11 @@
 Someone might have hidden the password in the trace file.
 Find the key to unlock this [file](https://artifacts.picoctf.net/c/494/flag.zip). [This tracefile](https://artifacts.picoctf.net/c/494/dump.pcap) might be good to analyze.
 
+## Hint:
+
+1. Download the pcap and look for the password or flag.
+2. Don't try to use a password cracking tool, there are easier ways here.
+
 ## Basic Idea of the Problem:
 
 The challenge basically gives you a zip file and a pcap file then simply expects you to find the flag. 
