@@ -38,21 +38,9 @@ Hệ thống được thiết kế với ba thành phần chính:
 - Bank System giữ toàn quyền kiểm soát HE_SK. Fintech Partner chỉ có HE_PK.
 - Mã hóa Đồng cấu Hoàn toàn (FHE) với TenSEAL: Sử dụng thư viện TenSEAL với lược đồ CKKS.
 
-## 4. Triển khai Hệ thống Thực tế (Proof of Concept - PoC)
-Đồ án sẽ tập trung vào việc xây dựng một Proof-of-Concept (PoC) với các thành phần sau:
+## 4. Triển khai Hệ thống Thực tế
+![image](https://github.com/user-attachments/assets/95434080-d0e9-4b10-a0dd-1d998a354edc)
 
-**Bank System (Triển khai Backend):**
-- Framework: FastAPI (Python).
-- Database: SQL Server (sử dụng SQLAlchemy).
-- Import trực tiếp thư viện `he_crypto.pyd` để sinh khóa, mã hóa, giải mã.
-- Thư viện: TenSEAL (quản lý cấu trúc khóa/ciphertext HE), PyJWT, thư viện cho khóa bất đối xứng (ví dụ: cryptography).
-
-**Fintech Partner System (Mô phỏng Backend):**
-- Framework: FastAPI (Python).
-- Tính toán HE: Sử dụng TenSEAL và HE_PK.
-
-**HE Service (Thư viện):**
-- Được đóng gói thành `.pyd`, không cần deploy service riêng.
 
 ## 5. Công nghệ sử dụng
 | Thành phần      | Công nghệ chính                      | Mục đích                                                                        |
@@ -65,7 +53,6 @@ Hệ thống được thiết kế với ba thành phần chính:
 - Nghiên cứu FHE (TenSEAL/CKKS).
 - Thiết kế, triển khai PoC kiến trúc 3 thành phần.
 - Chứng minh luồng: lấy dữ liệu, mã hóa, gửi đi tính toán, nhận lại, giải mã.
-- Đánh giá hiệu năng.
 
 **Các bước:**
 1. Thiết lập môi trường, cài đặt thư viện.
