@@ -55,16 +55,11 @@ Hệ thống được thiết kế với ba thành phần chính:
 - Được đóng gói thành `.pyd`, không cần deploy service riêng.
 
 ## 5. Công nghệ sử dụng
-| Thành phần      | Công nghệ chính | Mục đích                                                        |
-| --------------- | --------------- | --------------------------------------------------------------- |
-| Bank System     | Python, FastAPI | API backend, logic nghiệp vụ, import he_crypto.pyd              |
-| SQL Server (DB) |                 | Lưu trữ dữ liệu giao dịch của khách hàng                        |
-| SQLAlchemy      |                 | Kết nối và tương tác với SQL Server từ Python                   |
-| TenSEAL         |                 | Để Bank System hiểu và quản lý các đối tượng khóa/ciphertext HE |
-| PyJWT           |                 | Tạo/ký JWT, quản lý cặp khóa định danh của Bank System          |
-| Fintech Partner | Python, FastAPI | Mô phỏng API backend, logic tính toán HE                        |
-| TenSEAL         |                 | Thực hiện tính toán trên ciphertext bằng HE_PK                  |
-| HE Service      | he_crypto.pyd   | Cung cấp các hàm mã hóa, giải mã, sinh khóa chuyên biệt         |
+| Thành phần      | Công nghệ chính                      | Mục đích                                                                        |
+| --------------- | ------------------------------------ | ------------------------------------------------------------------------------- |
+| Bank System     | Python, FastAPI, SQLAlchemy, TenSEAL | Xây dựng API backend, quản lý dữ liệu, mã hóa/giải mã, import he_crypto.pyd     |
+| Fintech Partner | Python, FastAPI, TenSEAL             | Nhận ciphertext, tính toán trên ciphertext, không có HE_SK                      |
+| HE Service      | TenSEAL, Python                      | Cung cấp các hàm mã hóa, giải mã, sinh khóa chuyên biệt dưới dạng thư viện .pyd |
 
 ## 6. Mục tiêu và các bước thực hiện
 - Nghiên cứu FHE (TenSEAL/CKKS).
