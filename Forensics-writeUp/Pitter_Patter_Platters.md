@@ -1,5 +1,4 @@
 # Pitter, Patter, Platters
-Category: Forensics
 
 ## Description
 
