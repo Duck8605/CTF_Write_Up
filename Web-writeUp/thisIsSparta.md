@@ -1,4 +1,7 @@
-# Challenge 1: This is Sparta
+# This is Sparta
+## Description:
+
+A simple login page is presented. The famous line 'This is Sparta!' might be a hint, but the real clue lies in examining what happens on the client side. Your mission is to find a way in.
 
 ## Initial Analysis
 
@@ -41,7 +44,9 @@ The login credentials are hardcoded directly in the client-side JavaScript. Deco
 
 4.  **Retrieve the Flag:** Enter `Cyber-Talent` into both the `username` and `password` fields and click the "Check" button. An alert dialog will appear containing the flag.
 
-    
+    ![image](https://github.com/user-attachments/assets/2e6a212c-fd80-48fd-a126-65e19c8ef13e)
+
+    **Flag:** FLAG:{J4V4_Scr1Pt_1S_Aw3s0me}
 
 ## Impact
 - **Severe:** The hardcoded credentials vulnerability allows any user with access to the source code to retrieve sensitive information (the flag in this case), completely bypassing the login mechanism.

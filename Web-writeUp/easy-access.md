@@ -1,4 +1,8 @@
-# Challenge 10: Easy access
+# Easy access
+
+## Description:
+
+Getting into this system should be easy, right? It's just a login form. Prove you have 'Easy access' by getting past it without knowing the real password.
 
 ## Initial Analysis
 
@@ -18,7 +22,7 @@ The data entered in the username and password fields is not properly handled and
     - **Username:** `'`
     - **Password:** (leave blank or enter anything)
     - After clicking the login button, the website returns an SQL error message containing the keyword "MariaDB." This confirms the existence of the SQL Injection vulnerability 100% and reveals the database management system in use.
-    
+
 
 2.  **Construct a Payload to Bypass Login:**
     The goal is to construct an SQL statement that always evaluates to `true`, allowing the system to grant access without a valid password. A classic payload for this scenario is `' OR 1=1 --`.
@@ -29,11 +33,17 @@ The data entered in the username and password fields is not properly handled and
         - The `--` (followed by a space) is the comment character in SQL, which will disable the rest of the query (`AND password = ''`).
         - As a result, the `WHERE` condition is always true, and the system will return the first user record in the table (usually the admin) and grant access.
 
+    ![image](https://github.com/user-attachments/assets/a0e4c8a6-16a3-4c13-9ca5-05644f4d0cb3)
+
 3.  **Log In and Get the Flag:**
     - **Username:** `' OR 1=1 -- ` (note the space at the end)
     - **Password:** (leave blank or enter anything)
     - After clicking login, the system will authenticate successfully and redirect to a page containing the flag.
-    
+
+    ![image](https://github.com/user-attachments/assets/d5cff33c-697a-4983-89e2-164d6552ed69)
+
+    **Flag:** flag{!njection_3v3ry_wh3r3}
+
 
 ## Impact
 - **Critical:** An SQL Injection vulnerability in a login form allows an attacker to completely bypass the authentication mechanism.

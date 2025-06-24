@@ -1,4 +1,8 @@
-# Challenge 7: Blue Inc
+# Blue Inc
+
+## Description:
+
+Welcome to Blue Inc, the next generation social network. Log in with the provided demo account to see your profile. But can you see anyone else's profile?
 
 ## Initial Analysis
 
@@ -16,20 +20,25 @@ The website provides a login form with a pre-supplied account: `demo/demo`. Afte
 ## Exploitation Steps
 
 1.  **Log in with the demo account:** Use `demo/demo` to log in.
+    ![image](https://github.com/user-attachments/assets/85f42374-f599-4e52-915a-fca32c137e14)
 
 2.  **Observe URL and Cookie:** After logging in, go to the profile page and observe:
     - URL: `.../profile.php?user=demo`
     - Cookie: `user=demo`
     
-    
+    ![image](https://github.com/user-attachments/assets/728fc3c5-bbb1-4e1d-986f-b2041f52ca49)
+
 
 3.  **Perform the IDOR Attack:** Proceed to change both client-controlled values to impersonate the admin.
     - **Change URL:** Modify the URL parameter from `user=demo` to `user=admin`.
     - **Change Cookie:** Use DevTools (F12) to edit the value of the `user` cookie from `demo` to `admin`.
 
 4.  **Get the Flag:** After changing both values, navigate to the modified URL (or reload the page). The system will believe we are the `admin` user and display the admin's profile, which contains the flag.
-    
 
+    ![image](https://github.com/user-attachments/assets/68bf9887-cd94-488d-b70f-791fd814dadb)
+
+    **Flag:** 15716a249064f7e9684a816dcdb05282
+    
 ## Impact
 - **Severe:** An attacker can access and view the information of any user in the system simply by guessing or changing a URL parameter and a cookie value.
 - The vulnerability allows for both **Horizontal Privilege Escalation** (viewing other users' data) and **Vertical Privilege Escalation** (accessing an admin account from a regular user account).

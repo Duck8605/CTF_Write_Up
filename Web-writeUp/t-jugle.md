@@ -1,4 +1,8 @@
-# Challenge 9: T-Jugle
+# T-Jugle
+
+## Description:
+
+PHP is a loosely typed language, which can lead to some... interesting behaviors. Look at the code provided. Can you find an input that makes the comparison true? It's all about how you juggle the types.
 
 ## Initial Analysis
 
@@ -40,7 +44,10 @@ This is a **Type Juggling** vulnerability in PHP.
     We just need to pass the string `240610708` as the `password` parameter in the URL.
     **Final URL:** `[URL]?password=240610708`
     After visiting this URL, the comparison condition in the PHP code will be met, and the website will return the flag.
-    
+
+    ![image](https://github.com/user-attachments/assets/31c7106e-f4c2-4ee3-9ffc-34e1d3799a95)
+
+    **Flag:** FLAG(852844f3594b5a7befcb90d3a4402d74)
 
 ## Impact
 - **Severe:** This vulnerability allows an attacker to completely bypass authentication or hash-based checks without knowing the original value. Any function that uses loose comparison (`==`) to check hash values is vulnerable to this type of attack.
