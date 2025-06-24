@@ -15,7 +15,9 @@ This repository contains a collection of my write-ups for various Capture The Fl
 * [Who Am I](Web-writeUp/who-am-i.md)
 * [Who Is Admin](Web-writeUp/who-is-admin.md)
 
-### Danh sách các bài write-up
+## picoCTF Forensics Writeups
+
+All write-ups for picoCTF Forensics challenges are located in the `Forensics-writeUp` folder:
 
 - [Blast from the past](Forensics-writeUp/Blast%20from%20the%20past.md)
 - [Dear Diary](Forensics-writeUp/Dear%20Diary.md)
@@ -32,14 +34,14 @@ This repository contains a collection of my write-ups for various Capture The Fl
 - [trivial_flag_tranfer_protocol](Forensics-writeUp/trivial_flag_tranfer_protocol.md)
 - [wireshark-doo-dooo-do](Forensics-writeUp/wireshark-doo-dooo-do.md)
 
-### Hướng dẫn sử dụng
+## How to use
 
-1. Chọn bài write-up bạn quan tâm trong danh sách trên.
-2. Mở file tương ứng để xem hướng dẫn chi tiết từng bước giải bài.
-3. Một số write-up có thể đính kèm hình ảnh minh họa hoặc liên kết đến các công cụ trực tuyến hỗ trợ phân tích.
+1. Choose the write-up you are interested in from the lists above.
+2. Open the corresponding file to see the detailed solution and explanation.
+3. Some write-ups may include images or links to online tools for further analysis.
 
-### Đóng góp
+## Contribution
 
-Nếu bạn có các write-up khác hoặc muốn bổ sung, hãy tạo pull request hoặc liên hệ với chủ repo.
+If you have additional write-ups or want to contribute, feel free to create a pull request or contact the repository owner.
 
 I hope you find these write-ups helpful!
