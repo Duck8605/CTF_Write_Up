@@ -54,6 +54,6 @@ kali@kali:/media/sf_CTFs/pico/Pitter_Patter_Platters# xxd -s 0x200400 -l 200 sus
 Some formatting and we get the flag:
 
 ```console
-root@kali:/media/sf_CTFs/pico/Pitter_Patter_Platters# od --skip-bytes=0x200437 --read-bytes=66 suspicious.dd.sda1 --format=c --address-radix=n --width=100 | sed "s/\\\0//g" | tr -d " " | rev
+kali@kali:/media/sf_CTFs/pico/Pitter_Patter_Platters# od --skip-bytes=0x200437 --read-bytes=66 suspicious.dd.sda1 --format=c --address-radix=n --width=100 | sed "s/\\\0//g" | tr -d " " | rev
 picoCTF{b3_5t111_mL|_<3_eac06438}
 ```
