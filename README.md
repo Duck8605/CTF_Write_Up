@@ -4,16 +4,16 @@ This repository contains a collection of my write-ups for various Capture The Fl
 
 ## CyberTalent Web Writeups
 
-* [Blue Inc](cyberTalent-Web-writeUp/blue-inc.md)
-* [Easy Access](cyberTalent-Web-writeUp/easy-access.md)
-* [Easy Message](cyberTalent-Web-writeUp/easy-message.md)
-* [Searching for the Cookie](cyberTalent-Web-writeUp/searching-for-the-cookie.md)
-* [Share The Idea](cyberTalent-Web-writeUp/shareTheIdea.md)
-* [T-Jugle](cyberTalent-Web-writeUp/t-jugle.md)
-* [The Restricted Sessions](cyberTalent-Web-writeUp/the-restricted-sessions.md)
-* [This Is Sparta](cyberTalent-Web-writeUp/thisIsSparta.md)
-* [Who Am I](cyberTalent-Web-writeUp/who-am-i.md)
-* [Who Is Admin](cyberTalent-Web-writeUp/who-is-admin.md)
+* [Blue Inc](Web-writeUp/blue-inc.md)
+* [Easy Access](Web-writeUp/easy-access.md)
+* [Easy Message](Web-writeUp/easy-message.md)
+* [Searching for the Cookie](Web-writeUp/searching-for-the-cookie.md)
+* [Share The Idea](Web-writeUp/shareTheIdea.md)
+* [T-Jugle](Web-writeUp/t-jugle.md)
+* [The Restricted Sessions](Web-writeUp/the-restricted-sessions.md)
+* [This Is Sparta](Web-writeUp/thisIsSparta.md)
+* [Who Am I](Web-writeUp/who-am-i.md)
+* [Who Is Admin](Web-writeUp/who-is-admin.md)
 
 ### Danh sách các bài write-up
 
