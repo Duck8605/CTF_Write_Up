@@ -3,10 +3,7 @@ Category: Forensics
 
 ## Description
 
-> 'Suspicious' is written all over this disk image.
-
-A binary file was attached.
-
+'Suspicious' is written all over this disk image. Download [suspicious.dd.sda1](https://jupiter.challenges.picoctf.org/static/47f3cb40aed42fbd74fd644e11d08007/suspicious.dd.sda1)
 
 ## Solution
 
